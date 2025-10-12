@@ -1,4 +1,4 @@
-# Análisis de sentimiento en titulares de noticias (2017–2024)
+# Análisis de sentimiento en titulares de noticias (2017–2023)
 Este repositorio contiene el código en **R** utilizado para recopilar titulares desde **Google News** y aplicar un análisis de sentimiento con el léxico **AFINN-ES**.
 
 ## Archivos incluidos

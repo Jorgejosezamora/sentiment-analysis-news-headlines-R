@@ -1,20 +1,49 @@
-# Análisis de sentimiento en titulares de noticias (2017–2023)
-Este repositorio contiene el código en **R** utilizado para recopilar titulares desde **Google News** y aplicar un análisis de sentimiento con el léxico **AFINN-ES**.
+# Sentiment Analysis in News Headlines (2017–2023)
+This repository contains the R scripts used to collect Spanish-language news headlines from Google News and perform a sentiment analysis using the AFINN-ES lexicon.
+The project is part of the doctoral research “Activating Headlines: Negative Discourse, Emotional Consumption, and Critical Media Literacy in Post-COVID Digital Press (2017–2023)”.
 
-## Archivos incluidos
-- `codigo_analisis_sentimiento.R`: código principal.
-- `afinn_es.csv`: léxico AFINN-ES.
-- `noticias_afinn_filtradas.xlsx`: ejemplo de resultados.
+## Included Files
+- codigo_analisis_sentimiento.R — main script containing functions for data collection, cleaning, and sentiment analysis.
+- afinn_es.csv — AFINN-ES lexicon used for semantic scoring.
+- noticias_afinn_filtradas.xlsx — example output dataset containing analysed headlines.
 
-## Requisitos
-- R versión ≥ 4.2  
-- Librerías: `tidyRSS`, `dplyr`, `stringr`, `tidytext`, `openxlsx`
+## Requirements
 
-## Ejecución
-1. Descargue este repositorio.  
-2. Abra el archivo `.R` en RStudio.  
-3. Asegúrese de tener el léxico `afinn_es.csv` en la misma carpeta.  
-4. Ejecute el script para generar el archivo de resultados.
+- R version ≥ 4.2
+- Required libraries: install.packages(c("tidyRSS", "dplyr", "stringr", "tidytext", "openxlsx"))
 
-Autor: Jorge José Zamora Cánovas  
-Año: 2025
+## Execution
+
+1. Download or clone this repository.
+2. Open the .R script in RStudio.
+3. Ensure that the file afinn_es.csv is located in the same working directory.
+4. Run the script to generate the results file (noticias_afinn_filtradas.xlsx).
+
+## Methodological Overview
+
+- Data source: Google News RSS (2017–2023)
+- Language: Spanish
+- Sentiment analysis: AFINN-ES lexicon (values from −8 to +8)
+- Analytical approach: Tokenisation, lexicon-based scoring, and descriptive statistics.
+
+The script allows for reproducible large-scale sentiment analysis on Spanish media headlines and can be adapted for other datasets, languages, or timeframes.
+
+## Citation
+
+If you use this code or dataset in your research, please cite as:
+
+Zamora Cánovas, J. J. (2025). Sentiment Analysis in News Headlines (2017–2023) [Computer software]. GitHub.
+Available at: https://github.com/yourusername/sentiment-news-ES
+
+## License
+
+This repository is distributed under the MIT License, allowing reuse with attribution.
+See the LICENSE
+ file for details.
+
+✉️ Contact
+
+Author: Jorge José Zamora Cánovas
+Email: jorge.zamora@example.com
+
+Year: 2025

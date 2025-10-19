@@ -33,7 +33,7 @@ The script allows for reproducible large-scale sentiment analysis on Spanish med
 If you use this code or dataset in your research, please cite as:
 
 Zamora Cánovas, J. J. (2025). Sentiment Analysis in News Headlines (2017–2023) [Computer software]. GitHub.
-Available at: https://github.com/yourusername/sentiment-news-ES
+Available at: https://github.com/Jorgejosezamora/sentiment-analysis-news-headlines-R
 
 ## License
 

@@ -41,7 +41,7 @@ This repository is distributed under the MIT License, allowing reuse with attrib
 See the LICENSE
  file for details.
 
-✉️ Contact
+## Contact
 
 Author: Jorge José Zamora Cánovas
 Email: jorge.zamora@edu.upct.es

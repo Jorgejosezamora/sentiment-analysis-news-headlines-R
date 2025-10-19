@@ -44,6 +44,6 @@ See the LICENSE
 ✉️ Contact
 
 Author: Jorge José Zamora Cánovas
-Email: jorge.zamora@example.com
+Email: jorge.zamora@edu.upct.es
 
 Year: 2025
